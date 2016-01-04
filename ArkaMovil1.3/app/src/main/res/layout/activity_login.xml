@@ -1,0 +1,62 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo"
+    tools:context="com.arkamovil.android.Login"
+    tools:ignore="MergeRootFrame">
+
+    <ImageView
+        android:id="@+id/titulo"
+        android:layout_width="wrap_content"
+        android:src="@drawable/nombre"
+        android:layout_height="170dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="10dp">
+        </ImageView>
+
+
+    <fragment
+        android:name="com.arkamovil.android.Informacion.PiePaginaRedes"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/pie"
+        android:layout_gravity="center_horizontal|bottom"/>
+
+    <RelativeLayout
+        android:orientation="vertical"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:paddingTop="180dp"
+        android:paddingBottom="5dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:weightSum="1"
+        android:layout_gravity="center">
+
+        <LinearLayout
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:layout_width="0px"
+            android:layout_height="0px" >
+            <requestFocus />
+        </LinearLayout>
+
+
+        <Button
+        android:id="@+id/botonlogin"
+        style="@style/button_text"
+            android:text="@string/login"
+        android:clickable="true"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="230dp"
+            android:layout_height="70dp"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true">
+    </Button>
+
+    </RelativeLayout>
+
+</FrameLayout>
+

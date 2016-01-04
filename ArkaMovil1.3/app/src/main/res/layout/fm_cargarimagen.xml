@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/RelativeLayout01"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent">
+
+        <LinearLayout
+            android:id="@+id/LinearLayout01"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <LinearLayout
+                android:id="@+id/linear_placa"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical"
+                android:background="@drawable/borde_layout">
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Escanear Placa"
+                    android:id="@+id/escanear_c3"
+                    android:layout_gravity="center_horizontal" />
+
+                <TextView
+                    android:id="@+id/label_placa"
+                    android:text="Ingrese el Número de Placa a Consultar"
+                    style="@style/labelArkaMovil" />
+
+                <AutoCompleteTextView
+                    style="@style/buttonTextArkaMovil"
+                    android:inputType="number"
+                    android:maxLength="50"
+                    android:id="@+id/ing_placa" />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="consultar"
+                    android:layout_marginTop="5dp"
+                    android:id="@+id/con_placa" />
+
+            </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linear_elemento"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/borde_layout">
+
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:id="@+id/bajar_elementos_inventario"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/detalle"
+                android:layout_gravity="center_vertical|center_horizontal" />
+            <TextView
+                android:id="@+id/label_observaciones_elemento"
+                android:text="Ver Información del Elemento"
+                android:gravity="center"
+                style="@style/labelArkaMovil" />
+
+            </LinearLayout>
+
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tomar Foto"
+                android:enabled="false"
+                android:id="@+id/camara" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Asignar Imagen"
+                android:enabled="false"
+                android:id="@+id/asignarimagen" />
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+</ScrollView>

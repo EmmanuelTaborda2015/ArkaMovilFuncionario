@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+          <RelativeLayout
+            android:id="@+id/RelativeLayout01"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent">
+
+            <LinearLayout
+                android:id="@+id/LinearLayout01"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical"
+                android:padding="20dp">
+
+                <TextView
+                    android:id="@+id/label_fecha"
+                    android:text="@string/string_fecha"
+                    android:editable="false"
+                    style="@style/labelArkaMovil"/>
+
+                <TextView
+                    android:id="@+id/fecha"
+                    android:gravity="center"
+                    style="@style/buttonTextArkaMovil"
+                    android:text="@string/formatofecha"
+                    android:textColor="@color/GRIS"/>
+
+                <TextView
+                    android:id="@+id/label_sede"
+                    android:text="@string/string_sede"
+                    style="@style/labelArkaMovil"/>
+
+                <AutoCompleteTextView
+                    style="@style/buttonTextArkaMovil"
+                    android:id="@+id/sede_c1" />
+
+                TextView
+                    android:id="@+id/label_facultad"
+                    android:text="@string/String_facultad"
+                    style="@style/labelArkaMovil"/>
+
+                AutoCompleteTextView
+                    style="@style/buttonTextArkaMovil"
+                    android:id="@+id/facultad_c1" />
+
+
+                <TextView
+                    android:id="@+id/label_dependencia"
+                    android:text="@string/String_dependencia"
+                    style="@style/labelArkaMovil"/>
+
+                <AutoCompleteTextView
+                    style="@style/buttonTextArkaMovil"
+                    android:id="@+id/dependencia_c1" />
+
+                <TextView
+                    android:id="@+id/label_ubicacion"
+                    android:text="@string/String_ubicacion"
+                    style="@style/labelArkaMovil"/>
+
+                <AutoCompleteTextView
+                    style="@style/buttonTextArkaMovil"
+                    android:id="@+id/ubicacion_c1" />
+
+                <TextView
+                    android:id="@+id/label_ceularesponsable"
+                    android:text="Documento o Nombre del responsable"
+                    style="@style/labelArkaMovil"/>
+
+                <AutoCompleteTextView
+                    style="@style/buttonTextArkaMovil"
+                    android:inputType="textCapCharacters"
+
+                    android:maxLength="100"
+                    android:id="@+id/cedularesponsable_c1" />
+
+                <TextView
+                    android:id="@+id/label_nombreresponsable"
+                    android:text="@string/String_nombreresponsable"
+                    style="@style/labelArkaMovil"/>
+
+                <AutoCompleteTextView
+                    style="@style/buttonTextArkaMovil"
+                    android:enabled="false"
+                    android:id="@+id/nombreresponsable_c1" />
+
+                <TextView
+                    android:id="@+id/label_observacion"
+                    android:text="@string/string_observacion"
+                    style="@style/labelArkaMovil"/>
+
+                <EditText
+                    android:id="@+id/observacion_c1"
+                    android:inputType="textMultiLine"
+                    android:lines="5"
+                    android:maxLines = "5"
+                    android:maxLength="240"
+                    android:scrollbars = "vertical"
+                    android:gravity="left|top"
+                    style="@style/textViewArkaMovil"/>
+
+                <TextView
+                    android:id="@+id/label_numerovisita"
+                    android:text="@string/String_numerovisita"
+                    style="@style/labelArkaMovil"/>
+
+                <AutoCompleteTextView
+                    style="@style/buttonTextArkaMovil"
+                    android:inputType="number"
+                    android:enabled="false"
+                    android:id="@+id/numerovisita" />
+
+                <TextView
+                    android:id="@+id/label_proxvis"
+                    android:text="@string/string_proxvis"
+                    style="@style/labelArkaMovil"/>
+
+
+
+                <TextView
+                    android:id="@+id/proxvis_c1"
+                    android:gravity="center"
+                    style="@style/buttonTextArkaMovil"
+                    android:text="@string/formatofecha"
+                    android:textColor="@color/GRIS"/>
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="Generar PDF"
+                    android:id="@+id/descargar"/>
+
+            </LinearLayout>
+        </RelativeLayout>
+    </ScrollView>
+
+<!-- From: file:/home/emmanuel/Escritorio/ArkaMovilFuncionarios/ArkaMovil1.3/app/src/main/res/layout/fm_acta_visita.xml -->

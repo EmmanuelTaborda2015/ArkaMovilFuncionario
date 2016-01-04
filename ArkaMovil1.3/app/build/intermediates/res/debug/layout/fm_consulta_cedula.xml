@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/RelativeLayout01"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent">
+
+        <LinearLayout
+            android:id="@+id/LinearLayout01"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <LinearLayout
+                android:id="@+id/con_c7"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical"
+                android:background="@drawable/borde_layout">
+
+                <TextView
+                    android:id="@+id/label_cedula"
+                    android:text="@string/string_documento"
+                    style="@style/labelArkaMovil" />
+
+                <AutoCompleteTextView
+                    style="@style/buttonTextArkaMovil"
+                    android:inputType="number"
+                    android:maxLength="17"
+                    android:id="@+id/documento_c7" />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Consultar"
+                    android:id="@+id/consultar_c7" />
+
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:id="@+id/subir_c7"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/subir"
+                android:layout_gravity="center_horizontal" />
+
+            <TableLayout
+                android:id="@+id/cabecera_c7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"></TableLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TableLayout
+                    android:id="@+id/tabla_c7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"></TableLayout>
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:id="@+id/bajar_c7"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/bajar"
+                android:layout_gravity="center_horizontal" />
+
+
+        </LinearLayout>
+    </RelativeLayout>
+</ScrollView>
+
+<!-- From: file:/home/emmanuel/Escritorio/ArkaMovilFuncionarios/ArkaMovil1.3/app/src/main/res/layout/fm_consulta_cedula.xml -->

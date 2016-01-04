@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/RelativeLayout01"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent">
+
+        <LinearLayout
+            android:id="@+id/LinearLayout01"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+
+            <LinearLayout
+                android:id="@+id/liner_spinner_texto"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical"
+                android:background="@drawable/borde_layout">
+
+                <TextView
+                    android:id="@+id/label_funcionario"
+                    android:text="@string/String_funcionario"
+                    style="@style/labelArkaMovil" />
+
+                <AutoCompleteTextView
+                    style="@style/buttonTextArkaMovil"
+                    android:inputType="text"
+                    android:maxLength="50"
+                    android:id="@+id/funcionario_radicado" />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="consultar"
+                    android:layout_marginTop="5dp"
+                    android:id="@+id/con_fun_radicado" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/elementos_inventario"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:id="@+id/subir_radicado"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/subir"
+                    android:layout_gravity="center_horizontal" />
+
+                <TableLayout
+                    android:id="@+id/cabecera_radicado"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="10dp"></TableLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TableLayout
+                        android:id="@+id/tabla_radicado"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"></TableLayout>
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:id="@+id/bajar_radicado"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/bajar"
+                    android:layout_gravity="center_horizontal" />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Radicar"
+                    android:layout_marginTop="5dp"
+                    android:id="@+id/boton_radicado" />
+
+
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:text="actualizar"
+                    android:layout_marginTop="15dp"
+                    android:id="@+id/actualizar_elementos_inventario" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </RelativeLayout>
+</ScrollView>

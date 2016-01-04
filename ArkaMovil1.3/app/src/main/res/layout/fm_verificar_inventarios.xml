@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/RelativeLayout01"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent">
+
+        <LinearLayout
+            android:id="@+id/LinearLayout01"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+
+            <LinearLayout
+                android:id="@+id/liner_spinner_texto"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical"
+                android:background="@drawable/borde_layout">
+
+                <TextView
+                    android:id="@+id/label_tipoconf"
+                    android:text="@string/String_tipo_confirmacion"
+                    style="@style/labelArkaMovil"/>
+
+                <LinearLayout
+                    android:id="@+id/liner_spinner"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:background="@color/BLANCO">
+
+
+                    <Spinner
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/tipo_confirmacion"/>
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/label_criteriosbusqueda"
+                    android:text="@string/String_criterio_busqueda"
+                    style="@style/labelArkaMovil"/>
+
+                <LinearLayout
+                    android:id="@+id/liner_spinner2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:background="@color/BLANCO">
+
+
+                    <Spinner
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/criterios_busqueda"/>
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <ToggleButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/filtro_tod_c2"
+                android:layout_marginTop="10dp"
+                android:background="@color/GRIS2"
+                android:textOff="CONSULTAR TODOS"
+                android:textOn="CONSULTAR TODOS" />
+
+            <LinearLayout
+                android:id="@+id/datos_todos"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical"
+                android:background="@drawable/borde_layout">
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="consultar"
+                    android:layout_marginTop="5dp"
+                    android:id="@+id/con_tod_c2" />
+
+
+            </LinearLayout>
+
+            <ToggleButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:id="@+id/filtro_dep_c2"
+                android:background="@color/GRIS2"
+                android:textOff="CONSULTAR POR SEDE Y/O DEPENDENCIA"
+                android:textOn="CONSULTAR POR SEDE Y/O DEPENDENCIA" />
+
+            <LinearLayout
+                android:id="@+id/datos_funcionario"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical"
+                android:background="@drawable/borde_layout">
+
+                <TextView
+                    android:id="@+id/label_sede"
+                    android:text="@string/string_sede"
+                    style="@style/labelArkaMovil" />
+
+                <AutoCompleteTextView
+                    style="@style/buttonTextArkaMovil"
+                    android:id="@+id/sede_c2" />
+
+                <TextView
+                    android:id="@+id/label_dependencia"
+                    android:text="@string/String_dependencia"
+                    style="@style/labelArkaMovil" />
+
+                <AutoCompleteTextView
+                    style="@style/buttonTextArkaMovil"
+                    android:id="@+id/dependencia_c2" />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="consultar"
+                    android:layout_marginTop="5dp"
+                    android:id="@+id/con_dep_c2" />
+
+
+            </LinearLayout>
+
+            <ToggleButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/filtro_fun_c2"
+                android:layout_marginTop="10dp"
+                android:background="@color/GRIS2"
+                android:textOff="CONSULTAR POR FUNCIONARIO"
+                android:textOn="CONSULTAR POR FUNCIONARIO" />
+
+            <LinearLayout
+                android:id="@+id/filtro"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical"
+                android:background="@drawable/borde_layout">
+
+                <TextView
+                    android:id="@+id/label_funcionario"
+                    android:text="@string/String_funcionario"
+                    style="@style/labelArkaMovil" />
+
+                <AutoCompleteTextView
+                    style="@style/buttonTextArkaMovil"
+                    android:inputType="text"
+                    android:maxLength="50"
+                    android:text="Ingrese Mínimo 3 Caracteres"
+                    android:textColor="@color/GRIS"
+                    android:id="@+id/funcionario_c2" />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="consultar"
+                    android:layout_marginTop="5dp"
+                    android:id="@+id/con_fun_c2" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </RelativeLayout>
+</ScrollView>

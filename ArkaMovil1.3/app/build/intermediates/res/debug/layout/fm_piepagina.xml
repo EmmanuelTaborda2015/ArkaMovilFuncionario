@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#3CF"
+    android:alpha="0.6">
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src= "@drawable/ud"
+        android:layout_marginLeft="30dp"
+        android:layout_gravity="left" />
+
+    <TextView
+        android:id="@+id/fecha_pie"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginRight="30dp"
+        android:textSize="25dp"
+        android:text="Hola"
+        android:textColor="@color/DocgerBlue"
+        android:gravity="center_vertical|center_horizontal" />
+</LinearLayout><!-- From: file:/home/emmanuel/Escritorio/ArkaMovilFuncionarios/ArkaMovil1.3/app/src/main/res/layout/fm_piepagina.xml -->

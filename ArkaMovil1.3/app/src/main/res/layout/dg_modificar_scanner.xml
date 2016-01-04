@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/RelativeLayout01"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent">
+
+        <LinearLayout
+            android:id="@+id/LinearLayout01"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:background="@color/DocgerBlue"
+            android:padding="20dp"
+            android:paddingBottom="20dp">
+            <TextView
+                android:id="@+id/label_elemento"
+                android:text="Id Elemento"
+                style="@style/labelArkaMovil"/>
+
+            <EditText
+                style="@style/buttonTextArkaMovil"
+                android:id="@+id/elemento_61s"
+                android:enabled="false"/>
+
+            <TextView
+                android:id="@+id/label_serial"
+                android:text="Serial"
+                style="@style/labelArkaMovil"/>
+
+            <EditText
+                style="@style/buttonTextArkaMovil"
+                android:id="@+id/serial_61s"
+                android:enabled="false"/>
+
+            <TextView
+                android:id="@+id/label_placa"
+                android:text="Placa"
+                style="@style/labelArkaMovil"/>
+
+            <EditText
+                style="@style/buttonTextArkaMovil"
+                android:enabled="false"
+                android:id="@+id/placa_61s" />
+
+            <TextView
+                android:id="@+id/label_estado"
+                android:text="Estado"
+                style="@style/labelArkaMovil"/>
+
+            <Spinner
+                style="@style/buttonTextArkaMovil"
+                android:id="@+id/estado_61s" />
+
+            <TextView
+                android:id="@+id/label_observacion"
+                android:text="Observaciones"
+                style="@style/labelArkaMovil"/>
+
+            <EditText
+                android:id="@+id/observacion_61s"
+                android:inputType="textMultiLine"
+                android:lines="5"
+                android:maxLines = "5"
+                android:maxLength="100"
+                android:scrollbars = "vertical"
+                android:gravity="left|top"
+                style="@style/textViewArkaMovil"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Guardar"
+                    android:id="@+id/guardar_61s"/>
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Cancelar"
+                    android:id="@+id/cancelar_61s"/>
+
+
+                </LinearLayout>
+
+
+        </LinearLayout>
+    </RelativeLayout>
+</ScrollView>

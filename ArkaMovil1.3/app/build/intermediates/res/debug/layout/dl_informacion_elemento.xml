@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <RelativeLayout
+        android:id="@+id/RelativeLayout01"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent">
+
+        <LinearLayout
+            android:id="@+id/LinearLayout02"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="@color/DocgerBlue"
+            android:padding="20dp"
+            android:paddingBottom="20dp">
+
+            </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/LinearLayout01"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="@color/DocgerBlue"
+            android:padding="20dp"
+            android:paddingBottom="20dp">
+
+            <ImageView
+                android:id="@+id/imagen_inf"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:background="@drawable/borde_imagen"
+                android:src="@drawable/circular"
+                android:paddingBottom="5dp" />
+
+            <TextView
+                android:id="@+id/label_inf_marca"
+                android:text="Marca"
+                style="@style/labelArkaMovil" />
+
+            <AutoCompleteTextView
+                style="@style/buttonTextArkaMovil"
+                android:enabled="false"
+                android:id="@+id/info_marca" />
+
+
+            <TextView
+                android:id="@+id/label_inf_serie"
+                android:text="Serie"
+                style="@style/labelArkaMovil" />
+
+            <AutoCompleteTextView
+                style="@style/buttonTextArkaMovil"
+                android:enabled="false"
+                android:id="@+id/info_serie" />
+
+            <TextView
+                android:id="@+id/label_inf_nivel"
+                android:text="Nivel"
+                style="@style/labelArkaMovil" />
+
+            <AutoCompleteTextView
+                style="@style/buttonTextArkaMovil"
+                android:enabled="false"
+                android:id="@+id/info_nivel" />
+
+            <TextView
+                android:id="@+id/label_inf_ubicacion"
+                android:text="Ubicación Especifíca"
+                style="@style/labelArkaMovil" />
+
+            <AutoCompleteTextView
+                style="@style/buttonTextArkaMovil"
+                android:enabled="false"
+                android:id="@+id/info_ubicacion" />
+
+            <TextView
+                android:id="@+id/label_inf_valor"
+                android:text="Valor Total"
+                style="@style/labelArkaMovil" />
+
+            <AutoCompleteTextView
+                style="@style/buttonTextArkaMovil"
+                android:enabled="false"
+                android:id="@+id/info_valor" />
+
+            <TextView
+                android:id="@+id/label_inf_tipobien"
+                android:text="Tipo de Bien"
+                style="@style/labelArkaMovil" />
+
+            <AutoCompleteTextView
+                style="@style/buttonTextArkaMovil"
+                android:enabled="false"
+                android:id="@+id/info_tipobien" />
+
+            <TextView
+                android:id="@+id/label_inf_fechasalida"
+                android:text="Fecha de Salida"
+                style="@style/labelArkaMovil" />
+
+            <AutoCompleteTextView
+                style="@style/buttonTextArkaMovil"
+                android:enabled="false"
+                android:id="@+id/info_fechasalida" />
+
+
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Cerrar"
+                android:id="@+id/cerrar_infoelem"
+                android:layout_marginTop="5dp"
+                android:layout_gravity="center_horizontal" />
+
+        </LinearLayout>
+    </RelativeLayout>
+</ScrollView><!-- From: file:/home/emmanuel/Escritorio/ArkaMovilFuncionarios/ArkaMovil1.3/app/src/main/res/layout/dl_informacion_elemento.xml -->

@@ -1,0 +1,62 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo"
+    tools:context="com.arkamovil.android.Login"
+    tools:ignore="MergeRootFrame">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:paddingTop="10dp"
+        android:paddingBottom="5dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp">
+
+    <TextView
+        android:id="@+id/etiqueta_usuario"
+        style="@style/labelArkaMovil"
+        android:layout_below="@+id/titulo"
+        android:text="@string/etiqueta_usuario"/>
+
+    <EditText
+        android:id="@+id/user"
+        style="@style/textViewArkaMovil"
+        android:layout_below="@+id/etiqueta_usuario"
+        android:inputType="number">
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/etiqueta_contrasenna"
+        style="@style/labelArkaMovil"
+        android:layout_below="@+id/user"
+        android:text="@string/etiqueta_contrasenna" />
+
+    <EditText
+        android:id="@+id/contrasenna_usuario"
+        style="@style/textViewArkaMovil"
+        android:layout_below="@+id/etiqueta_contrasenna"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/botonlogin"
+        style="@style/buttonArkaMovil"
+        android:layout_below="@+id/contrasenna_usuario"
+        android:text="@string/login"
+        android:onClick="login"/>
+
+</LinearLayout>
+
+    <fragment
+        android:name="com.arkamovil.android.Informacion.PiePaginaRedes"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/pie"
+        android:layout_gravity="center_horizontal|bottom"/>
+
+</FrameLayout>
+

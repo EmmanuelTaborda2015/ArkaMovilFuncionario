@@ -1,0 +1,9 @@
+<ListView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:choiceMode="singleChoice"
+    android:dividerHeight="0dp"
+    android:background="#170317"
+    android:alpha="0.7"
+    tools:context="com.arkamovil.android.menu_desplegable.NavigationDrawerFragment" />
+<!-- From: file:/home/emmanuel/Escritorio/ArkaMovilFuncionarios/ArkaMovil1.3/app/src/main/res/layout/fragment_navigation_drawer.xml -->

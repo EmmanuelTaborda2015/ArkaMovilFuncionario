@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/RelativeLayout01"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent">
+
+        <LinearLayout
+            android:id="@+id/LinearLayout01"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <ToggleButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/des_pla_c6"
+                android:background="@color/GRIS2"
+                android:textOff="CONSULTAR POR ESCANEO DE PLACA"
+                android:textOn="CONSULTAR POR ESCANEO DE PLACA" />
+
+            <LinearLayout
+                android:id="@+id/pla_c6"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical"
+                android:background="@drawable/borde_layout">
+
+                <Button
+                    style="@style/buttonTextArkaMovil"
+                    android:id="@+id/escanear_c6"
+                    android:editable="false"
+                    android:text="Escanear Placa"
+                    android:onClick="escanear" />
+            </LinearLayout>
+
+            <ToggleButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/des_dep_c6"
+                android:layout_marginTop="5dp"
+                android:background="@color/GRIS2"
+                android:textOff="CONSULTAR POR DEPENDENCIA"
+                android:textOn="CONSULTAR POR DEPENDENCIA" />
+
+            <LinearLayout
+                android:id="@+id/dep_c6"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical"
+                android:background="@drawable/borde_layout">
+
+                <TextView
+                    android:id="@+id/label_sede"
+                    android:text="@string/string_sede"
+                    style="@style/labelArkaMovil" />
+
+                <AutoCompleteTextView
+                    style="@style/buttonTextArkaMovil"
+                    android:id="@+id/sede_c6" />
+
+                <TextView
+                    android:id="@+id/label_dependencia"
+                    android:text="@string/String_dependencia"
+                    style="@style/labelArkaMovil" />
+
+                <AutoCompleteTextView
+                    style="@style/buttonTextArkaMovil"
+                    android:id="@+id/dependencia_c6" />
+
+                <TextView
+                    android:id="@+id/label_ubicacion"
+                    android:text="@string/String_ubicacion"
+                    style="@style/labelArkaMovil" />
+
+                <AutoCompleteTextView
+                    style="@style/buttonTextArkaMovil"
+                    android:id="@+id/ubicacion_c6" />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="consultar"
+                    android:layout_marginTop="5dp"
+                    android:id="@+id/con_dep_c6" />
+
+            </LinearLayout>
+
+            <ToggleButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/des_fun_c6"
+                android:background="@color/GRIS2"
+                android:layout_marginTop="5dp"
+                android:textOff="CONSULTAR POR FUNCIONARIO"
+                android:textOn="CONSULTAR POR FUNCIONARIO" />
+
+            <LinearLayout
+                android:id="@+id/fun_c6"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical"
+                android:background="@drawable/borde_layout">
+
+                <TextView
+                    android:id="@+id/label_funcionario"
+                    android:text="Documento de Funcionario"
+                    style="@style/labelArkaMovil" />
+
+                <AutoCompleteTextView
+                    style="@style/buttonTextArkaMovil"
+                    android:inputType="number"
+                    android:maxLength="17"
+                    android:id="@+id/funcionario_c6" />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="consultar"
+                    android:layout_marginTop="5dp"
+                    android:id="@+id/con_fun_c6" />
+
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:id="@+id/subir_c6"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/subir"
+                android:layout_gravity="center_horizontal" />
+
+            <TableLayout
+                android:id="@+id/cabecera_c6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"></TableLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TableLayout
+                    android:id="@+id/tabla_c6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"></TableLayout>
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:id="@+id/bajar_c6"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/bajar"
+                android:layout_gravity="center_horizontal" />
+
+        </LinearLayout>
+    </RelativeLayout>
+</ScrollView>
+<!-- From: file:/home/emmanuel/Escritorio/ArkaMovilFuncionarios/ArkaMovil1.3/app/src/main/res/layout/fm_casouso6.xml -->

@@ -1,0 +1,12 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle" >
+
+    <stroke
+        android:width="1dip"
+        android:color="#000" />
+
+    <corners android:radius="10dp" />
+
+    <solid android:color="#ffff" />
+
+</shape><!-- From: file:/home/emmanuel/Escritorio/ArkaMovilFuncionarios/ArkaMovil1.3/app/src/main/res/drawable/campotexto.xml -->

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/RelativeLayout01"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent">
+
+        <LinearLayout
+            android:id="@+id/LinearLayout01"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <LinearLayout
+                android:id="@+id/con_c7"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical"
+                android:background="@drawable/borde_layout">
+
+                <Button
+                    style="@style/buttonTextArkaMovil"
+                    android:id="@+id/escanear_c8"
+                    android:editable="false"
+                    android:background="@color/GRIS"
+                    android:text="Escanear Placa"/>
+
+                <AutoCompleteTextView
+                    style="@style/buttonTextArkaMovil"
+                    android:layout_marginTop="15dp"
+                    android:gravity="center"
+                    android:enabled="false"
+                    android:id="@+id/placa_c8" />
+
+                <AutoCompleteTextView
+                    style="@style/buttonTextArkaMovil"
+                    android:layout_marginTop="15dp"
+                    android:gravity="center"
+                    android:enabled="false"
+                    android:id="@+id/formato_placa_c8" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </RelativeLayout>
+</ScrollView>
+

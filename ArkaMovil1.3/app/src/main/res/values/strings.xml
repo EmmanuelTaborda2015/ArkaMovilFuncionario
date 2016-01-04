@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--Etiquetas activity Login-->
+
+    <string name="app_name">ArkaMovil</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="login">Ingresar</string>
+    <string name="titulo">ArkaMovil</string>
+    <string name="etiqueta_usuario"> Usuario </string>
+    <string name="etiqueta_contrasenna"> Contraseña </string>
+    <string name="title_activity_casos_uso">ArkaMovil</string>
+
+    <!--///////////////////////////// -->
+
+    <!--Etiquetas casos de uso en menu desplegable-->
+
+    <string name="title_section1">1 - Acta de Visita</string>
+    <string name="title_section2">1 - Estado Inventario Funcionario</string>
+    <string name="title_section3">2 - Asociar Imagen a Elemento</string>
+    <string name="title_section4">3 - Radicación</string>
+    <string name="salir">    Cerrar Sesión</string>
+
+    <!--///////////////////////////// -->
+
+    <!--Etiquetas casos de uso en menu desplegable-->
+
+    <string name="string_id_acta">Id Acta</string>
+    <string name="string_fecha">Fecha</string>
+    <string name="string_documento">Documento de Responsable</string>
+    <string name="string_observacion">Observaciones</string>
+    <string name="string_proxvis">Fecha Proxima Visita</string>
+
+
+    <!--///////////////////////////// -->
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_example">Example action</string>
+    <string name="title_activity_caso_uso1">CasoUso1</string>
+    <string name="title_activity_calendario2">Calendario2</string>
+    <string name="title_activity_necad">necad</string>
+    <string name="title_activity_login">Login</string>
+
+    <!--Caso uso 1-->
+
+    <string name="formatofecha">DD/MM/AAAA</string>
+    <string name="String_facultad">Facultad</string>
+
+    <!--Caso uso 5-->
+
+    <string name="String_funcionario">Funcionario</string>
+    <string name="String_nombreresponsable">Nombre del responsable</string>
+    <string name="String_cedularesponsable">Cédula del responsable</string>
+    <string name="String_numerovisita">Visita #</string>
+    <string name="String_dependencia">Dependencia</string>
+    <string name="String_ubicacion">Ubicación</string>
+    <string name="String_tipo_confirmacion">Estado de Aprobación</string>
+    <string name="String_tipo_movimiento">Tipo de Movimiento</string>
+    <string name="String_criterio_busqueda">Criterios de búsqueda</string>
+    <string name="String_estado">Estado</string>
+    <string name="String_estadoActualizacion">Estado de Actualización</string>
+    <string name="id">Id</string>
+    <string name="valor">Valor</string>
+    <string name="string_sede">Sede</string>
+
+</resources>
