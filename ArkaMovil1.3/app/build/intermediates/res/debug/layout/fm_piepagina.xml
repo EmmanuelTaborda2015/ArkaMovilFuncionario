@@ -22,4 +22,4 @@
         android:text="Hola"
         android:textColor="@color/DocgerBlue"
         android:gravity="center_vertical|center_horizontal" />
-</LinearLayout><!-- From: file:/home/emmanuel/Escritorio/ArkaMovilFuncionarios/ArkaMovil1.3/app/src/main/res/layout/fm_piepagina.xml -->
+</LinearLayout><!-- From: file:/home/emmanuel/Escritorio/ff/ArkaMovilFuncionario/ArkaMovil1.3/app/src/main/res/layout/fm_piepagina.xml -->

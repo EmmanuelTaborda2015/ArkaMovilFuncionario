@@ -10,4 +10,4 @@
         android:id="@+id/activity_main_webview"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
-</FrameLayout><!-- From: file:/home/emmanuel/Escritorio/ArkaMovilFuncionarios/ArkaMovil1.3/app/src/main/res/layout/activity_simplesamlphp.xml -->
+</FrameLayout><!-- From: file:/home/emmanuel/Escritorio/ff/ArkaMovilFuncionario/ArkaMovil1.3/app/src/main/res/layout/activity_simplesamlphp.xml -->

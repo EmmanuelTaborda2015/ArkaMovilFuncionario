@@ -2,6 +2,13 @@
 <items version="2" >
 
     <item
+        jar="/home/emmanuel/Escritorio/ff/ArkaMovilFuncionario/ArkaMovil1.3/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.0.0/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="4e86306289ace4aa0cfec44a05ed2b410d36989d">
+        <dex dex="/home/emmanuel/Escritorio/ff/ArkaMovilFuncionario/ArkaMovil1.3/app/build/intermediates/pre-dexed/debug/classes-a444f07780e23d4253baf69509c5899854cf5300.jar" />
+    </item>
+    <item
         jar="/home/emmanuel/Escritorio/ArkaMovilFuncionarios/ArkaMovil1.3/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.0.0/libs/internal_impl-22.0.0.jar"
         jumboMode="false"
         revision="22.0.1"
@@ -23,11 +30,18 @@
         <dex dex="/home/emmanuel/Escritorio/todo/movil/ArkaMovil1.3/app/build/intermediates/pre-dexed/debug/droidText.0.4-56634d634c4e6303431b235aad83d356b1a36d93.jar" />
     </item>
     <item
-        jar="/home/emmanuel/Escritorio/ArkaMovilFuncionarios/ArkaMovil1.3/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/classes.jar"
+        jar="/home/emmanuel/Escritorio/ff/ArkaMovilFuncionario/ArkaMovil1.3/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/classes.jar"
         jumboMode="false"
         revision="22.0.1"
         sha1="d84409890828e07d344a3b9b1da545dba9897b51">
-        <dex dex="/home/emmanuel/Escritorio/ArkaMovilFuncionarios/ArkaMovil1.3/app/build/intermediates/pre-dexed/debug/classes-006767cef86bafdd88693ef86ee15223c3438c94.jar" />
+        <dex dex="/home/emmanuel/Escritorio/ff/ArkaMovilFuncionario/ArkaMovil1.3/app/build/intermediates/pre-dexed/debug/classes-9bdd6e61f8fbf6dc8e0352b019a0d653de609737.jar" />
+    </item>
+    <item
+        jar="/home/emmanuel/Escritorio/ff/ArkaMovilFuncionario/ArkaMovil1.3/ksoap2-android-assembly-3.0.0-jar-with-dependencies/ksoap2-android-assembly-3.0.0-jar-with-dependencies.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="224c93f1824fa17b96db7250c2e5e2703d45e052">
+        <dex dex="/home/emmanuel/Escritorio/ff/ArkaMovilFuncionario/ArkaMovil1.3/app/build/intermediates/pre-dexed/debug/ksoap2-android-assembly-3.0.0-jar-with-dependencies-a819f0ad32c18e0611bf56b6e1bb6c474140259c.jar" />
     </item>
     <item
         jar="/home/emmanuel/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/22.0.0/support-annotations-22.0.0.jar"
@@ -35,6 +49,13 @@
         revision="22.0.1"
         sha1="685d0b2c590447e85284ed84712cb363ba04eff8">
         <dex dex="/home/emmanuel/Escritorio/todo/movil/ArkaMovil1.3/app/build/intermediates/pre-dexed/debug/support-annotations-22.0.0-1de3a81c66b5222721e904a3125e0792d9768c3b.jar" />
+    </item>
+    <item
+        jar="/home/emmanuel/Escritorio/ArkaMovilFuncionarios/ArkaMovil1.3/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="d84409890828e07d344a3b9b1da545dba9897b51">
+        <dex dex="/home/emmanuel/Escritorio/ArkaMovilFuncionarios/ArkaMovil1.3/app/build/intermediates/pre-dexed/debug/classes-006767cef86bafdd88693ef86ee15223c3438c94.jar" />
     </item>
     <item
         jar="/home/emmanuel/Escritorio/ArkaMovilFuncionarios/ArkaMovil1.3/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.0.0/classes.jar"
@@ -51,11 +72,25 @@
         <dex dex="/home/emmanuel/Escritorio/todo/movil/ArkaMovil1.3/app/build/intermediates/pre-dexed/debug/classes-9b2a31e9141eb0487b2a7b78ef98d1346fc32912.jar" />
     </item>
     <item
+        jar="/home/emmanuel/Escritorio/ff/ArkaMovilFuncionario/ArkaMovil1.3/app/build/intermediates/exploded-aar/com.journeyapps/zxing-android-embedded/3.0.2/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="744a4b394a9a7db8a4c4680836d8544802a9cd64">
+        <dex dex="/home/emmanuel/Escritorio/ff/ArkaMovilFuncionario/ArkaMovil1.3/app/build/intermediates/pre-dexed/debug/classes-9cac1fa9dfda701d1e24f5a5462f03b687dfcfdc.jar" />
+    </item>
+    <item
         jar="/home/emmanuel/Escritorio/todo/movil/ArkaMovil1.3/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.0.0/libs/internal_impl-22.0.0.jar"
         jumboMode="false"
         revision="22.0.1"
         sha1="b5b92f469d515a13d778900f6d50c03d12f35504">
         <dex dex="/home/emmanuel/Escritorio/todo/movil/ArkaMovil1.3/app/build/intermediates/pre-dexed/debug/internal_impl-22.0.0-9fdfab88144257bc3a745165aa1c73797d19a4d9.jar" />
+    </item>
+    <item
+        jar="/home/emmanuel/Escritorio/ff/ArkaMovilFuncionario/ArkaMovil1.3/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.0.0/libs/internal_impl-22.0.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="b5b92f469d515a13d778900f6d50c03d12f35504">
+        <dex dex="/home/emmanuel/Escritorio/ff/ArkaMovilFuncionario/ArkaMovil1.3/app/build/intermediates/pre-dexed/debug/internal_impl-22.0.0-9b18b3dabbfbac4ea5c4f6e731749b9f1a9ee3cf.jar" />
     </item>
     <item
         jar="/home/emmanuel/Escritorio/todo/movil/ArkaMovil1.3/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/classes.jar"

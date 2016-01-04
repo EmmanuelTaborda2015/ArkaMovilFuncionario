@@ -52,15 +52,6 @@ public class Simplesamlphp extends ActionBarActivity {
         mWebView.setWebViewClient(new WebViewClient() {
             @Override
             public void onPageFinished(WebView view, String url) {
-
-            }
-
-            @Override
-            public void onPageStarted(WebView view, String url, Bitmap favicon)
-            {
-                // TODO Auto-generated method stub
-                super.onPageStarted(view, url, favicon);
-
                 if (urlCerrarSesion.equals(url)) {
 
                     String id_dispositivo = Settings.Secure.getString(getApplication().getContentResolver(), Settings.Secure.ANDROID_ID);
@@ -71,6 +62,15 @@ public class Simplesamlphp extends ActionBarActivity {
                     buffer.append("&=" + URLEncoder.encode(""));
                     mWebView.loadUrl(buffer.toString());
                 }
+            }
+
+            @Override
+            public void onPageStarted(WebView view, String url, Bitmap favicon)
+            {
+                // TODO Auto-generated method stub
+                super.onPageStarted(view, url, favicon);
+
+
             }
 
             @Override

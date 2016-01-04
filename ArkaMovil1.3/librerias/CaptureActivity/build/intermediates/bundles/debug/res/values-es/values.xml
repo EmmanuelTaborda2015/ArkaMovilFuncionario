@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- From: file:/home/emmanuel/Escritorio/ArkaMovilFuncionarios/ArkaMovil1.3/librerias/CaptureActivity/res/values-es/strings.xml -->
+    <!-- From: file:/home/emmanuel/Escritorio/ff/ArkaMovilFuncionario/ArkaMovil1.3/librerias/CaptureActivity/res/values-es/strings.xml -->
     <eat-comment/>
     <string name="app_name">ArkaMovil</string>
     <string name="app_picker_name">Aplicaciones</string>

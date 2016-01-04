@@ -23,4 +23,4 @@
         android:id="@+id/zxing_barcode_scanner"/>
 
 </merge>
-<!-- From: file:/home/ralf/src/zxing-android-minimal/zxing-android-embedded/res/layout/zxing_capture.xml --><!-- From: file:/home/emmanuel/Escritorio/ArkaMovilFuncionarios/ArkaMovil1.3/app/build/intermediates/exploded-aar/com.journeyapps/zxing-android-embedded/3.0.2/res/layout/zxing_capture.xml -->
+<!-- From: file:/home/ralf/src/zxing-android-minimal/zxing-android-embedded/res/layout/zxing_capture.xml --><!-- From: file:/home/emmanuel/Escritorio/ff/ArkaMovilFuncionario/ArkaMovil1.3/app/build/intermediates/exploded-aar/com.journeyapps/zxing-android-embedded/3.0.2/res/layout/zxing_capture.xml -->

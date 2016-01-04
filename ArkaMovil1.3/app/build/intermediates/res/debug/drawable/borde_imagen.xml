@@ -3,4 +3,4 @@
     android:shape="rectangle">
     <stroke android:width="2dp" android:color="@color/BLANCO" />
     <solid android:color="#FFFF" />
-</shape><!-- From: file:/home/emmanuel/Escritorio/ArkaMovilFuncionarios/ArkaMovil1.3/app/src/main/res/drawable/borde_imagen.xml -->
+</shape><!-- From: file:/home/emmanuel/Escritorio/ff/ArkaMovilFuncionario/ArkaMovil1.3/app/src/main/res/drawable/borde_imagen.xml -->

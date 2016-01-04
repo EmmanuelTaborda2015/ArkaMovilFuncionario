@@ -201,18 +201,23 @@ public class CasosUso extends ActionBarActivity
         switch (number) {
 
             case 1:
-                fragment = new CriteriosLevantamientoFisico();
-                this.setTitle("Levantamiento Físico de Inventarios");
-                thread_validarConexion = new Thread() {
-                    public void run() {
-                        Looper.prepare();
-                        WS_ValidarConexion validarConexion = new WS_ValidarConexion();
-                        webResponse_conexion = validarConexion.startWebAccess();
-                        handler_conexion.post(conexion);
+                if (cont == 1) {
+                    fragment = new CriteriosLevantamientoFisico();
+                    this.setTitle("Levantamiento Físico de Inventarios");
+                    cont = 0;
+                }
+                    thread_validarConexion = new Thread() {
+                        public void run() {
+                            Looper.prepare();
+                            WS_ValidarConexion validarConexion = new WS_ValidarConexion();
+                            webResponse_conexion = validarConexion.startWebAccess();
+                            handler_conexion.post(conexion);
                     }
                 };
 
                 thread_validarConexion.start();
+                cont++;
+
 
                 break;
 
